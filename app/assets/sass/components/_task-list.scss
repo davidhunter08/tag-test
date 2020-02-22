@@ -5,9 +5,6 @@
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  @include mq($from: tablet) {
-    min-width: 550px;
-  }
 }
 
 .app-task-list__section {
@@ -18,7 +15,7 @@
 .app-task-list__section-number {
   display: table-cell;
 
-  @include mq($from: tablet) {
+  @include mq($from: 375px) {
     min-width: nhsuk-spacing(6);
     padding-right: 0;
   }
@@ -29,7 +26,7 @@
   @include nhsuk-responsive-margin(7, "bottom");
   list-style: none;
   padding-left: 0;
-  @include mq($from: tablet) {
+  @include mq($from: 375px) {
     padding-left: nhsuk-spacing(6);
   }
 }
@@ -48,7 +45,8 @@
 
 .app-task-list__task-name {
   display: block;
-  @include mq($from: tablet) {
+  max-width: 50%;
+  @include mq($from: 375px) {
     float: left;
   }
 }
@@ -57,9 +55,13 @@
   margin-top: nhsuk-spacing(2);
   margin-bottom: nhsuk-spacing(1);
 
-  @include mq($from: tablet) {
+  @include mq($from: 375px) {
     float: right;
     margin-top: 0;
     margin-bottom: 0;
   }
+}
+
+.app-task-list__items--no-padding {
+  padding-left: 0;
 }
