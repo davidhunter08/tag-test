@@ -2,6 +2,7 @@
 @import 'node_modules/nhsuk-frontend/packages/nhsuk';
 
 // Components that are not in the NHS.UK frontend library
+@import 'components/example-callout';
 @import 'components/panel-confirmation';
 @import 'components/phase-banner';
 @import 'components/related-nav';
@@ -11,8 +12,10 @@
 // Add your custom CSS/Sass styles below... 
 ///////////////////////////////////////////
 
-li code, td code, p code {
-  padding: 0 5px;
-  color: #d13118;
-  background-color: white;
+li code,
+p code {
+  background: $color_nhsuk-white;
+  border: 1px solid $nhsuk-border-color;
+  padding: nhsuk-spacing(1) nhsuk-spacing(3);
+  font-size: 0.8em;
 }

@@ -34,147 +34,157 @@
         Tag
       </h1>
 
+      <div class="app-example app-example--content">
+        <strong class="nhsuk-tag nhsuk-tag--grey app-example__heading">Example</strong>
+        <strong class="nhsuk-tag">
+          Submitted
+        </strong>
+      </div>
+
       <p><a href="https://github.com/nhsuk/nhsuk-service-manual-backlog/issues/174">Backlog issue 174</a></p>
 
       <h2 id="when-to-use-this-component">When to use this component</h2>
       <p>Use the tag component to indicate the status of something, such as an item on a task list.</p>
+
+      <h2 id="using-multiple-tags">Using multiple tags</h2>
+      <p>You can use multiple tags for things that have multiple states. For example, items in a task list.</p>
+      <p>Tags should help people to organise things into useful categories: for example, things they’ve done and things they still need to do. The more categories you add, the harder it is for users to remember them. So start with the fewest number of tags you think might work, then add more if your user research shows there’s a need for them.</p>
 
       <h2 id="using-coloured-tags">Using coloured tags</h2>
       <p>You can use colour to help distinguish between different tags - or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use  ´nhsuk-tag–red´ for a tag that reads ‘Urgent’.</p>
       <p>Tags that have the same wording should use the same colour. <a href="https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html">Do not use colour alone to convey information</a> because it’s not accessible.</p>
 
       <table class="nhsuk-table">
-  <thead class="nhsuk-table__head">
-    <tr class="nhsuk-table__row">
-      <th class="nhsuk-table__header" scope="col"> Class name </th>
-      <th class="nhsuk-table__header" scope="col"> Tag </th>
-    </tr>
-  </thead>
-  <tbody class="nhsuk-table__body">
-       <tr class="nhsuk-table__row">
-      <td class="nhsuk-table__cell">
-        <code> nhsuk-tag </code>
-      </td>
-      <td class="nhsuk-table__cell">
-        <strong class="nhsuk-tag">
-          Submitted
-        </strong>
+        <thead class="nhsuk-table__head">
+          <tr class="nhsuk-table__row">
+            <th class="nhsuk-table__header" scope="col"> Class name </th>
+            <th class="nhsuk-table__header" scope="col"> Tag </th>
+          </tr>
+        </thead>
+        <tbody class="nhsuk-table__body">
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag">
+                Submitted
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--white </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--white">
+                Ready to submit
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--grey </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--grey">
+                Not started
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--green </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--green">
+                New
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--aqua-green </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--aqua-green">
+                Active
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--blue </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--blue">
+                Pending
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--purple </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--purple">
+                Received
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--pink </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--pink">
+                Sent
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--red </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--red">
+                Rejected
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--orange </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--orange">
+                Declined
+              </strong>
+            </td>
+          </tr>
+          <tr class="nhsuk-table__row">
+            <td class="nhsuk-table__cell">
+              <code> nhsuk-tag--yellow </code>
+            </td>
+            <td class="nhsuk-table__cell">
+              <strong class="nhsuk-tag nhsuk-tag--yellow">
+                Delayed
+              </strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-      <td class="nhsuk-table__cell">
-        <code> nhsuk-tag--white </code>
-      </td>
-      <td class="nhsuk-table__cell">
-        <strong class="nhsuk-tag nhsuk-tag--white">
-          Ready to submit
-        </strong>
-
-      </td>
-    </tr>
-    <tr class="nhsuk-table__row">
-      <td class="nhsuk-table__cell">
-        <code> nhsuk-tag--grey </code>
-      </td>
-      <td class="nhsuk-table__cell">
-        <strong class="nhsuk-tag nhsuk-tag--grey">
-          Not started
-        </strong>
-
-      </td>
-    </tr>
-    <tr class="nhsuk-table__row">
-      <td class="nhsuk-table__cell">
-        <code> nhsuk-tag--green </code>
-      </td>
-      <td class="nhsuk-table__cell">
-        <strong class="nhsuk-tag nhsuk-tag--green">
-          New
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--aqua-green </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--aqua-green">
-          Active
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--blue </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--blue">
-          Pending
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--purple </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--purple">
-          Received
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--pink </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--pink">
-          Sent
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--red </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--red">
-          Rejected
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--orange </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--orange">
-          Declined
-        </strong>
-
-              </td>
-            </tr>
-            <tr class="nhsuk-table__row">
-              <td class="nhsuk-table__cell">
-                <code> nhsuk-tag--yellow </code>
-              </td>
-              <td class="nhsuk-table__cell">
-                <strong class="nhsuk-tag nhsuk-tag--yellow">
-                  Delayed
-                </strong>
-
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
+      <h2 id="research-on-this-component">Research on this component</h2>
+      <h3>GOV.UK</h3>
+      <p>The Department for Education contributed the coloured tags. They’re being used in:</p>
+      <ul>
+        <li>apply for teacher training (used by citizens)</li>
+        <li>manage teacher training applications (used by teacher training providers)</li>
+      </ul>
+      <h3>NHS.UK</h3>
+      <p>We are looking for teams willing and able to test this approach in user research (or in their service)?</p>
+      <p><a class="app-contact-panel__link" href="https://github.com/nhsuk/nhsuk-service-manual-backlog/issues/174">Share research or feedback about the Tag component on GitHub</a>.</p>
 
     </div>
   </div>
