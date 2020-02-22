@@ -14,9 +14,10 @@
 ///////////////////////////////////////////
 
 li code,
-p code {
-  background: $color_nhsuk-white;
-  border: 1px solid $nhsuk-border-color;
-  padding: nhsuk-spacing(1) nhsuk-spacing(3);
-  font-size: 0.8em;
+p code,
+td code {
+  background-color: $color_nhsuk-white;
+  color: #d14; // sass-lint:disable-line no-color-hex no-color-literals
+  padding: 2px nhsuk-spacing(2);
+  word-break: break-word;
 }
