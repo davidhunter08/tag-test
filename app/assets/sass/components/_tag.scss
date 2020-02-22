@@ -17,62 +17,59 @@
     text-decoration: none;
     text-transform: uppercase;
   }
-  
-  .nhsuk-tag--dark-grey {
-    background-color: $color_nhsuk-grey-1;
-  }
 
   $color_nhsuk-aqua-green: #00A499;
-  $color_nhsuk-pink:#AE2573;
+  $color_nhsuk-pink: #AE2573;
+  $color_nhsuk-orange: #ED8B00;
   
-  // READY TO SUBMIT
+  // WHITE
   .nhsuk-tag--white	{
     background-color: $color_nhsuk-white;
     border: 1px solid $color_nhsuk-black;
     color: $color_nhsuk-black;
   }
 
-  // NOT STARTED
+  // GREY
   .nhsuk-tag--grey	{
     background-color: tint($color_nhsuk-grey-1, 80%);
     color: shade($color_nhsuk-grey-1, 30%);
   }
-  // NEW
+  // GREEN
   .nhsuk-tag--green	{
     background-color: tint($color_nhsuk-green, 80%);
     color: shade($color_nhsuk-green, 40%);
   }
-  //ACTIVE
+  // AQUA GREEN
   .nhsuk-tag--aqua-green	{
     background-color: tint($color_nhsuk-aqua-green, 80%);
     color: shade($color_nhsuk-aqua-green, 50%);
   }
-  // PENDING
+  // BLUE
   .nhsuk-tag--blue	{
     background-color: tint($color_nhsuk-blue, 80%);
     color: shade($color_nhsuk-blue, 30%);
   }
-  // RECEIVED
+  // PURPLE
   .nhsuk-tag--purple	{
     background-color: tint($color_nhsuk-purple, 80%);
     color: shade($color_nhsuk-purple, 30%);
   }
-  // SENT
+  // PINK
   .nhsuk-tag--pink	{
     background-color: tint($color_nhsuk-pink, 80%);
     color: shade($color_nhsuk-pink, 50%);
   }
-  // REJECTED
+  // RED
   .nhsuk-tag--red	{
     background-color: tint($color_nhsuk-red, 80%);
     color: shade($color_nhsuk-red, 50%);
   }
-  // DECLINED
+  // ORANGE
   .nhsuk-tag--orange	{
     background-color: tint($color_nhsuk-warm-yellow, 50%);
     color: shade($color_nhsuk-warm-yellow, 70%);
   }
-  // DELAYED
+  // YELLOW
   .nhsuk-tag--yellow {
     background-color: tint($color_nhsuk-yellow, 50%);
     color: shade($color_nhsuk-yellow, 70%);
