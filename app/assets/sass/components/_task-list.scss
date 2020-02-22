@@ -49,6 +49,9 @@
   @include mq($from: 375px) {
     float: left;
   }
+  @include mq($from: desktop) {
+    max-width: 60%;
+  }
 }
 
 .app-task-list__task-tag {
